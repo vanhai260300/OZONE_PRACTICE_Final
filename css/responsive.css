@@ -623,14 +623,16 @@
   transition: 0.4s;
 }
 .change .bar1 {
+  background-color: red;
   transition: .8s;
   -webkit-transform: rotate(-45deg) translate(-9px, 6px);
   transform: rotate(-45deg) translate(-9px, 6px);
 }
 
-.change .bar2 {opacity: 0;}
+.change .bar2 {opacity: 0; background-color: red;}
 
 .change .bar3 {
+  background-color: red;
   transition: .8s;
   -webkit-transform: rotate(45deg) translate(-8px, -8px);
   transform: rotate(45deg) translate(-8px, -8px);
