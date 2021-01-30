@@ -789,9 +789,9 @@
   font-size: 13px;
 }
 }
-@media (max-width: 413px){
+@media (max-width: 413px) and (min-width:397){
   .header .header-top {
-    height: 18%;
+    height: 19%;
 }
   .main .aboutus .image .note {
     width: 68vw;
@@ -812,6 +812,10 @@
   .header .header-top .top-bar .header-logo img{
     max-width: 100%;
   }
+}
+@media (max-width: 396px){
+  .header .header-top {
+    height: 18%;
 }
 @media (max-width: 340px){
   .header .header-top {
